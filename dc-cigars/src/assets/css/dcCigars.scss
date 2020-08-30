@@ -1,0 +1,16 @@
+@import "./variables";
+@import "./breakpoints";
+@import "./helpers";
+@import "./spacing";
+@import "./typography";
+@import "./forms";
+@import "./global";
+@import "./popover";
+@import "./modals";
+@import "./components/header";
+@import "./components/homeSlider";
+
+html {
+  height: 100%;
+  position: relative;
+}

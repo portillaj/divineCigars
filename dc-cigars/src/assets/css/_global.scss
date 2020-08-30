@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.margin-auto-center {
+  margin: 0 auto;
+}
+
+label {
+  color: #545454;
+}
+
+.custom-card {
+  background: #ffffff;
+  box-shadow: 4px 4px 8px 0 rgba(165, 165, 165, 0.3);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.no-height {
+  height: 0;
+}
+
+.grid-spacing {
+  padding-left: $base-spacing * 5;
+  padding-right: $base-spacing * 5;
+}
+
+button,
+.file-upload {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+html {
+  position: relative;
+}
+
+.sweet-loading {
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@include screen-sm {
+  .validation {
+    color: $text-danger;
+  }
+
+  .input-invalid {
+    border: 1px solid $text-danger;
+  }
+
+  a {
+    color: $color-primary;
+    display: inline-block;
+    padding: $base-spacing ($base-spacing * 2);
+    text-decoration: none;
+    &:visited {
+      color: $color-link;
+    }
+    &:hover {
+      color: $color-primary-dark-hover;
+      text-decoration: none;
+    }
+    &:active {
+      color: $color-primary;
+    }
+  }
+  .card-hr {
+    border: 0.3px solid $color-gray-medium;
+    width: 95%;
+  }
+  .card {
+    border: none !important;
+    box-shadow: $box-shadow-style !important;
+  }
+  .validation-errors {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: $text-danger;
+  }
+
+  #page-wrap {
+    text-align: center;
+    overflow: auto;
+  }
+
+  .link-style {
+    text-decoration: none;
+    color: white;
+    &:visited {
+      color: white;
+    }
+    &:active {
+      background: darken($color-primary, 5%);
+    }
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

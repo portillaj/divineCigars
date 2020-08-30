@@ -1,0 +1,116 @@
+/* Overwrite display properties */
+.display-none {
+  display: none !important;
+}
+
+@include screen-xs {
+  .display-xs-none {
+    display: none !important;
+  }
+}
+
+@include screen-tablet {
+  .display-tablet-none {
+    display: none !important;
+  }
+}
+
+@include screen-sm {
+  .display-sm-none {
+    display: none !important;
+  }
+}
+
+@include screen-md {
+  .display-md-none {
+    display: none !important;
+  }
+  .display-md-show {
+    display: block !important;
+  }
+}
+
+@include screen-lg {
+  .display-lg-none {
+    display: none !important;
+  }
+  .display-md-show {
+    display: block !important;
+  }
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Contextual Colors */
+.text-dark {
+  color: $color-link !important;
+}
+
+.text-primary {
+  color: $color-primary;
+}
+
+.text-success {
+  color: $text-success;
+}
+
+.text-info {
+  color: $text-info;
+}
+
+.text-warning {
+  color: $text-warning;
+}
+
+.text-danger {
+  color: $text-danger;
+}
+
+.text-wrap-none {
+  white-space: nowrap;
+}
+
+.background-primary {
+  background: $color-primary;
+}
+
+.background-purple {
+  background: $background-purple !important;
+}
+
+.background-success {
+  background: $text-success !important;
+}
+
+.background-info {
+  background: $text-info !important;
+}
+
+.background-warning {
+  background: $text-warning !important;
+}
+
+.background-danger {
+  background: $text-danger !important;
+}
+
+.background-basic {
+  background: #fff !important;
+  color: $color-primary !important;
+}
+
+.no-button {
+  background: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  height: $base-spacing * 3 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

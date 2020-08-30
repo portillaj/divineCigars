@@ -1,0 +1,234 @@
+html {
+  font-size: 1em;
+}
+
+body {
+  color: $dark-text;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.37px;
+  line-height: 1.5;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: $dark-text;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: inherit;
+}
+
+h1,
+.h1 {
+  font-size: $base-spacing * 6;
+  line-height: $base-spacing * 6;
+  margin-bottom: $base-spacing * 4;
+  margin-top: 0;
+
+  &.border-bottom {
+    border-bottom: 1px solid #b9bcc0;
+    padding-bottom: $base-spacing * 3;
+  }
+}
+
+h2,
+.h2 {
+  font-size: $base-spacing * 5;
+  line-height: $base-spacing * 6;
+  margin-bottom: $base-spacing * 3;
+  margin-top: 0;
+
+  &.border-bottom {
+    border-bottom: 1px solid #b9bcc0;
+    padding-bottom: $base-spacing * 3;
+  }
+}
+
+h3,
+.h3 {
+  font-size: $base-spacing * 4;
+  line-height: $base-spacing * 4;
+  margin-bottom: $base-spacing * 2;
+  margin-top: 0;
+
+  &.border-bottom {
+    border-bottom: 1px solid #b9bcc0;
+    padding-bottom: $base-spacing * 2;
+  }
+}
+
+h4,
+.h4 {
+  font-size: $base-spacing * 3;
+  line-height: $base-spacing * 3;
+  margin-bottom: $base-spacing;
+  margin-top: $base-spacing;
+
+  &.border-bottom {
+    border-bottom: 1px solid #b9bcc0;
+    padding-bottom: $base-spacing;
+  }
+}
+
+h5,
+.h5 {
+  font-size: $base-spacing * 2.5;
+  line-height: $base-spacing * 3;
+  margin-bottom: $base-spacing;
+  margin-top: $base-spacing * 2;
+
+  &.border-bottom {
+    border-bottom: 1px solid $color-gray-medium;
+    padding-bottom: $base-spacing;
+  }
+}
+
+h6,
+.h6 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: $base-spacing * 2;
+  line-height: $base-spacing * 3;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: $base-spacing * 2;
+}
+
+a {
+  color: $color-primary;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: underline;
+}
+
+small,
+.text-small {
+  font-size: 0.875rem;
+}
+
+strong,
+.text-strong {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+
+.text-medium {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+
+.text-light {
+  color: $dark-text !important;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+.text-light-no-color {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+.text-no-underline {
+  text-decoration: none !important;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+@include screen-xs {
+  .text-xs-left {
+    text-align: left;
+  }
+  .text-xs-center {
+    text-align: center;
+  }
+  .text-xs-right {
+    text-align: right;
+  }
+}
+
+@include screen-sm {
+  .text-sm-left {
+    text-align: left;
+  }
+  .text-sm-center {
+    text-align: center;
+  }
+  .text-sm-right {
+    text-align: right;
+  }
+}
+
+@include screen-md {
+  .text-md-left {
+    text-align: left;
+  }
+  .text-md-center {
+    text-align: center;
+  }
+  .text-md-right {
+    text-align: right;
+  }
+}
+
+@include screen-lg {
+  .text-lg-left {
+    text-align: left;
+  }
+  .text-lg-center {
+    text-align: center;
+  }
+  .text-lg-right {
+    text-align: right;
+  }
+}
+
+.text-inline {
+  display: inline-block;
+  margin-right: $base-spacing;
+
+  &.text-right {
+    float: right;
+    margin-left: $base-spacing;
+    margin-right: 0;
+
+    &::after {
+      clear: both;
+      content: "";
+      display: table;
+    }
+  }
+}
+
+hr {
+  border-top: 1px solid $color-gray-medium;
+  margin-bottom: $base-spacing * 2;
+  margin-top: $base-spacing * 2;
+}
+
+label {
+  color: $dark-text;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: $font-base-size;
+  letter-spacing: 1px;
+  line-height: $base-spacing * 3;
+  margin-bottom: $base-spacing;
+  margin-top: $base-spacing;
+}

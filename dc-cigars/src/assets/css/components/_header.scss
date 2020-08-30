@@ -1,0 +1,14 @@
+.main-header {
+  height: 100px;
+  img {
+    height: 50px;
+    width: 246px;
+  }
+  .menu-items {
+    font-size: 20px;
+    a {
+      color: $dark-text !important;
+      margin-right: $base-spacing * 4;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.home-slider {
+  img {
+    opacity: 0.7; 
+  }
+  div {
+    z-index: 3;
+  }
+  .call-to-action {
+    text-align: center;
+    z-index: 2;
+    h2 {
+      color: #fff;
+      font-weight: 700;
+    }
+    button {
+      border: none;
+      border-radius: 0;
+      height: 50px;
+      width: 160px;
+      &:hover {
+        border: 2px solid white;
+      }
+    }
+  }
+}

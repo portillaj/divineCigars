@@ -1,0 +1,44 @@
+//SUCCESS MODAL
+.modal-content {
+  border-top: 15px solid $color-primary !important;
+  .success-modal {
+    text-align: center;
+    div {
+      margin: 0 auto;
+    }
+    svg {
+      height: 60px;
+    }
+  }
+}
+
+//ERROR ALERT MODAL
+.alert-error {
+  background: #fff;
+  border-left: 10px solid $text-danger;
+  min-height: 120px;
+  margin: 0 auto;
+  position: relative;
+  width: 75%;
+  svg {
+    fill: $text-danger;
+  }
+  .close-icon {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 30px;
+  }
+}
+
+@include screen-xs {
+  .alert-error {
+    width: 85%;
+  }
+}
+
+@include screen-lg {
+  .alert-error {
+    width: 50%;
+  }
+}

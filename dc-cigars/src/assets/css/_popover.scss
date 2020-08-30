@@ -1,0 +1,17 @@
+.popover {
+  .error {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: $base-spacing;
+    .close-icon {
+      display: inline-block;
+      // height: $base-spacing * 2;
+      // width: $base-spacing * 2;
+    }
+    li {
+      line-height: $base-spacing * 1.5;
+      margin-left: $half-base-spacing;
+      width: 85%;
+    }
+  }
+}

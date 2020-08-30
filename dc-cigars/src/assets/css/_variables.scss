@@ -1,0 +1,55 @@
+/* Border Radius */
+$border-radius-sm: 2px;
+$border-radius-lg: 10px;
+$border-radius-md: 5px;
+
+// BACKGROUND COLORS
+$gradient-blue: radial-gradient(closest-side at 100% 131%, #065A82 100%, #1B3B6F 100%, #065A82 100%);
+
+// COMMON BORDER STYLES
+$box-shadow-style: 4px 4px 8px 0 rgba(165, 165, 165, 0.3);
+
+/* Colors */
+$color-primary: #c88a5a;
+$color-link: darken($color-primary, 5%);
+$color-primary-light-hover: lighten($color-primary, 5%);
+$color-primary-dark-hover: darken($color-primary, 5%);
+
+$primary-background: #2b3643;
+$secondary-background: #364150;
+$background-light: #eef1f6;
+$background-purple: #8877a9;
+
+$dark-text: #545454;
+$medium-text: #666666;
+$chat-grey: #f1f1f1;
+$color-grey-light: #f3f4f6;
+$color-gray-medium: #ededee;
+$color-gray-dark: #848484;
+$color-hr-grey: #d8d8d8;
+$color-gray-form-control: #eef1f6;
+$color-gray-placeholder: #bbb;
+
+//$text-primary: ;
+$text-success: #1bbc9b;
+$text-info: #3597db;
+$text-warning: #e8b846;
+$text-danger: #e8505a;
+
+/* Fonts */
+$font-base-size: 16px;
+
+/* Spacing */
+$base-spacing: 10px;
+$half-base-spacing: 5px;
+
+/* Responsive Breakpointss */
+$screen-xs-min: 576px; //xtra smal screen / mobile
+$screen-sm-min: 992px; // Small screen / tablet
+$screen-md-min: 993px; // Medium screen / desktop
+$screen-lg-min: 1200px; // Large screen / wide desktop
+
+/*Animation*/
+$animation-speed-fast: 100ms;
+$animation-speed-medium: 250ms;
+$animation-speed-slow: 400ms;
